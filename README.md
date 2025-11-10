@@ -38,7 +38,7 @@ cd mcp_getting_started
 
 # 创建虚拟环境并进入虚拟环境
 uv venv
-.venv\Scripts\activate.bat
+#.venv\Scripts\activate.bat
 
 # 安装依赖
 uv add "mcp[cli]" httpx openai
