@@ -1,5 +1,12 @@
+import httpx
+from mcp.server import FastMCP
+
+
+
+
 def main():
-    print("Hello from mcp-getting-started!")
+    # 初始化 FastMCP 服务器
+    app = FastMCP('web-search')
 
 
 if __name__ == "__main__":
