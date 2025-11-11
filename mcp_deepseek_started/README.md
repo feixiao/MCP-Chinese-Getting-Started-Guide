@@ -3,5 +3,5 @@
 
 #### 运行
 ```shell
-mcp dev main.py
+python3 main.py
 ```
