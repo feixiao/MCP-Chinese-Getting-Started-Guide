@@ -184,7 +184,15 @@ if __name__ == '__main__':
 nv run main.py
 ```
 
-下面我们来通过一个小例子来看看如何让 `DeepSeek` 来调用我们 MCP 服务器中的方法。
+##### 下面我们来通过一个小例子来看看如何让 `DeepSeek` 来调用我们 MCP 服务器中的方法。
+```shell
+uv init mcp_deepseek_started
+cd mcp_deepseek_started
+
+# 创建虚拟环境并进入虚拟环境
+uv venv
+```
+
 
 这里我们会用 `dotenv` 来管理我们相关的环境变量。.env 文件内容如下：
 
