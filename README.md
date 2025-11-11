@@ -194,7 +194,7 @@ uv venv
 ```
 
 
-这里我们会用 `dotenv` 来管理我们相关的环境变量。.env 文件内容如下：
+这里我们会用 `dotenv` 来管理我们相关的环境变量.env 文件内容如下：
 
 ```shell
 OPENAI_API_KEY=sk-89baxxxxxxxxxxxxxxxxxx
