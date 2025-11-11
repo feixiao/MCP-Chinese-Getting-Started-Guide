@@ -112,32 +112,18 @@ if __name__ == "__main__":
 
 此时，我们就完成了 MCP 服务端的编写。下面，我们来使用官方提供的 `Inspector` 可视化工具来调试我们的服务器。
 
-我们可以通过两种方法来运行`Inspector`：
+我们可以通过**两种方法**来运行`Inspector`：
 
 > 请先确保已经安装了 node 环境。
-
-通过 npx：
-
-```shell
-npx -y @modelcontextprotocol/inspector <command> <arg1> <arg2>
-```
-
-我们的这个代码运行命令为：
-
+##### 通过 npx：
 ```shell
 npx -y @modelcontextprotocol/inspector uv run web_search.py
 ```
 
 
 
-通过 mcp dev 来运行：
-
-```shell
-mcp dev PYTHONFILE
-```
-
+##### 通过 mcp dev 来运行：
 我们的这个代码运行命令为：
-
 ```shell
 mcp dev web_search.py
 ```
