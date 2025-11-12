@@ -367,6 +367,19 @@ if __name__ == "__main__":
 MCP 还为我们提供了一个 `Sampling` 的功能，这个如果从字面来理解会让人摸不到头脑，但实际上这个功能就给了我们一个在执行工具的前后的接口，我们可以在工具执行前后来执行一些操作。比如，当调用本地文件的删除的工具的时候，肯定是期望我们确认后再进行删除。那么，此时就可以使用这个功能。
 
 下面我们就来实现这个人工监督的小功能。
+```shell
+# 初始化项目
+uv init mcp_simple_chatbot
+cd mcp_simple_chatbot
+
+# 创建虚拟环境并进入虚拟环境
+uv venv
+#.venv\Scripts\activate.bat
+
+# 安装依赖
+uv add "mcp[cli]" httpx openai
+
+```
 
 首先，我们来创建个模拟拥有删除文件的 MCP 服务器：
 
