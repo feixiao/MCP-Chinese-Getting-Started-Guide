@@ -1078,6 +1078,3 @@ if __name__ == '__main__':
 ```
 
 
-
-至此，整个 MCP 入门教程就到这里啦，后续有其他的再进行更新。相关代码会放到 github 仓库中：https://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide
-
